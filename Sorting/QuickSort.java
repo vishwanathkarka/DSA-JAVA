@@ -16,15 +16,15 @@ int e = high;
 int m = s+(e-s)/2;
 int pivot = arr[m];
 // if already sorted then it will not swap
-while(s<=e){
-    while(arr[s]<pivot){
-s++;
+while(s<=e){ // checks condition
+    while(arr[s]<pivot){ // this will iterate until it condition is false
+s++; // at left arr[s] < pivot || if it is true the we will skip it and move to next element 
     }
     while(arr[e]>pivot){
         e--;
     }
     if(s<=e){
-int temp = arr[s];
+int temp = arr[s]; // swaping the data
 arr[s] = arr[e];
 arr[e] = temp;
 s++;
