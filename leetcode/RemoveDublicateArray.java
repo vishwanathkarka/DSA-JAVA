@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/
-class Solution { // Here numbers is in sorted order
+class RemoveDublicateArray { // Here numbers is in sorted order
     public int removeDuplicates(int[] nums) {
         if(nums.length ==0){ // checking the size of array if size = 0 skiping
             return 0;
