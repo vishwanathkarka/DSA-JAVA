@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="67d42403-0892-46e5-b6b1-e6e63b092762" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Search/leetcode/CountNegNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/leetcode/CountNegitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/leetcode/FindGreatestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/leetcode/SqrtNum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/leetcode/kthMissing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Search/leetcode/peakElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/MissingNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/MoveZero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcode/ThirdMaximumNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/patterns/Pattens.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/Bubblesort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/Selection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/MergeSortedArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/PlusOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/out/production/leetcode/MergeSortedArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/out/production/leetcode/PlusOne.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2N3RSnMNcak7CfDAoDrxGB1iCKm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="67d42403-0892-46e5-b6b1-e6e63b092762" name="Changes" comment="" />
+      <created>1678890781274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678890781274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,7 +1,7 @@
 public class Bubblesort {
     static void Bsort( int arr[], int n){
-        for(int i =0; i<n-1; i++){ // we take n-1 because we need not to swap the last because it swap
-            for(int j=0; j<n-i-1;j++ ) {
+        for(int i =0; i<n-1; i++){  // we take n-1 because we need not to swap the last because it swap
+            for(int j=0; j<n-i-1;j++ ) { // In every iteration last value will be sorted so we skip the sorted value for iteration
                 if (arr[j] > arr[j+1]) {
                     int temp = arr[j+ 1];
                     arr[j + 1] = arr[j];

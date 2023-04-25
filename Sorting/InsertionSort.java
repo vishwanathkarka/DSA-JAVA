@@ -1,24 +1,20 @@
-public class InsertionSort {
-static void Isort(int arr[],int n){
-
-    for(int i =1; i<n; i++){
-        int key = arr[i];
-        int j = i-1;
-        while(j>=0  && arr[j] >key){
-            arr[j+1] = arr[j] ;
-            j--;
-        }
-        arr[j+1] = key;
-    }
-}
-
-    public static void main(String[] args) {
-        int arr[] = {11,22,13,25,10,40};
-        int n = 6;
-        Isort(arr,n);
-        for(int i =0; i<n; i++){
-            System.out.println(arr[i]);
-        }
-
-    }
-}
+//import java.io.*;
+//import java.util.*;
+//public class InsertionSort {
+//    public static void main (String[] args) {
+//        int arr[] = new int[] {22,1,4,5,6,7,8,55};
+//        Sort(arr);
+//        System.out.printf(Arrays.toString(arr));
+//    }
+//    public static void Sort (int[] arr){
+//        for(int i =0; i<arr.length;i++){
+//            for(int j =1; j<arr.length-i-1;j++){
+//                if(arr[j+1]<arr[j]){
+//                    int temp = arr[j+1];
+//                    arr[j+1] = arr[j];
+//                    arr[j] = temp;
+//                }
+//            }
+//        }
+//    }
+//}

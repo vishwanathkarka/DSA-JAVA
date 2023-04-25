@@ -1,4 +1,8 @@
 import java.util.Arrays;
+//https://leetcode.com/problems/plus-one/
+//Input: digits = [1,2,3]
+//        Output: [1,2,4] // adding +1
+
 
 public class PlusOne {
     public static void main(String[] args) {

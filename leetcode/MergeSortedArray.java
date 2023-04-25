@@ -1,7 +1,10 @@
 import java.util.Arrays;
 
+
 public class MergeSortedArray {
 //    https://leetcode.com/problems/merge-sorted-array/
+//    Input: nums1 = [1,2,3,0,0,0] it has the space for nums2, m = 3, nums2 = [2,5,6], n = 3
+//    Output: [1,2,2,3,5,6]
 public static void main(String[] args) {
     int nums1[] = {1,2,3,0,0,0}; // merging the arrays and sorting and the temp value shuld not take
     int nums2[] = {2,5,6};
