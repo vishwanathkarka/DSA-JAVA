@@ -92,10 +92,10 @@ public static void  maxSubArray(int numbers[]){
 
 public static void  maxSum(int numbers[]){
 
-    int postfix[] = new int[numbers.length];
+    int postfix[] = new int[numbers.length]; 
 postfix[0]= numbers[0];
-    for(int i =1; i<numbers.length;i++){
-        postfix[i] = postfix[i-1]+numbers[i];
+    for(int i =1; i<numbers.length;i++){ // we create an array which contain number sum in ascending order
+        postfix[i] = postfix[i-1]+numbers[i]; // adding previous value and current value
     }
     int currSum =0;
     int maxVal = Integer.MIN_VALUE;
@@ -105,11 +105,12 @@ postfix[0]= numbers[0];
 currSum = postfix[0];
             }
             else{
-          currSum =  postfix[j]-postfix[i-1];
+          currSum =  postfix[j]-postfix[i-1]; // subtracing the smaller-1 value 
+          //ex start = index 2 then 2-1
             }
         }
         if(maxVal < currSum){
-            maxVal = currSum;
+            maxVal = currSum; 
         }
     }
     System.out.println(maxVal);
@@ -120,10 +121,10 @@ public static void maxSum3(int numbers[]){
     int currSum =0;
     for(int i =0; i<numbers.length;i++){
         currSum = currSum + numbers[i];
-        if(currSum <0){
+        if(currSum <0){  // if the cursum is negative then the we  put it 0
             currSum =0;
         }
-        maxSum = Math.max(currSum,maxSum);
+        maxSum = Math.max(currSum,maxSum); // finding the max value
     }
     System.out.println(maxSum);
 

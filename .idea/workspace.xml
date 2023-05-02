@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67d42403-0892-46e5-b6b1-e6e63b092762" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Search/leetcode/CountNegNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/leetcode/CountNegitive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/leetcode/FindGreatestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/leetcode/SqrtNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/leetcode/kthMissing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Search/leetcode/peakElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/MissingNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/MoveZero.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leetcode/ThirdMaximumNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/patterns/Pattens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting/Bubblesort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/Bubblesort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sorting/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sorting/Selection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/MergeSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/MergeSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/PlusOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/PlusOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/MergeSortedArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/out/production/leetcode/MergeSortedArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leetcode/out/production/leetcode/PlusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/out/production/leetcode/PlusOne.class" afterDir="false" />
-    </list>
+    <list default="true" id="67d42403-0892-46e5-b6b1-e6e63b092762" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
