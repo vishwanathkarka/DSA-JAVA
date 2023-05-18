@@ -16,7 +16,6 @@ moveZeroes(arr);
                 zeros ++; // zero= 1
             }
             else if(zeros>0){ // if number of zeros cout is grater then the 0 then it will move to the loop  // true zeros is 1
-
                 int temp = nums[i]; // saving the nums[i] value in temp
                 nums[i] =0; // making nums[i] =0
                 nums[i-zeros] = temp; // then it saving the non zero value in the nums[i-1]

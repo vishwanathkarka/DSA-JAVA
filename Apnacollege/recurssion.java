@@ -1,5 +1,7 @@
 package Apnacollege;
 
+import java.net.SocketTimeoutException;
+
 public class recurssion {
      static void  print (int n){
 
@@ -123,6 +125,34 @@ return toWays;
 
   }
 
+  public static void removeDuplicate(String str, int indx, StringBuilder newStr, boolean[] map ){
+    if(indx == str.length()){
+      System.out.println(newStr);
+      return;
+    }
+    char currChar = str.charAt(indx);
+    if(map[currChar-'a']==true){  // if b-a => 1 map[false,true,false,....]
+      //  if a - a=> 0 so we check the value int the map array boolen 
+      //if it contain true then it mean it is already contains
+      removeDuplicate(str, indx+1, newStr, map); // value is already existed in the newStr so we are moving to the next index 
+
+    }
+    else{ // it mean it is not in the newStr
+      map[currChar-'a'] =true; // adding the the value true
+      newStr.append(currChar);
+      removeDuplicate(str, indx+1, newStr, map);
+    }
+  }
+
+
+  public static int friendpairing(int n){
+    if(n ==1 || n==2){
+      return n;
+    }
+    return friendpairing(n-1) + (n-1)*friendpairing(n-2); // fri(n-1) => single pair
+    //n * fri(n-2) // double pair 
+
+  }
   public static void main(String[] args) {
     //   print(10);
     // System.out.print(fib(5));
@@ -134,6 +164,10 @@ return toWays;
 int arr[]= {1,33,33,33,55};
 // System.out.println(isSortedArray(arr,0));
 // System.out.println(power(2,10));
-System.out.println(tailing(5));
+// System.out.println(tailing(5));
+String str = "helloeveryone";
+removeDuplicate(str, 0,new StringBuilder(""),new boolean[26]); // letters in alpabets are 26
+//helovryn
+
 }
 }
