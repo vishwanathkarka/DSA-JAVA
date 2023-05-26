@@ -35,9 +35,8 @@ if(n == 1){
         if(n== 1 || n==0){
 return 1;
         }
-      return  fib(n-1)+fib(n-2);
+      return  n+fib(n-2);
     //   8%  
-
     }
     
     static int fact (int n){
@@ -153,9 +152,23 @@ return toWays;
     //n * fri(n-2) // double pair 
 
   }
+
+  public static void printDec(int n){
+    if(n==1){
+
+      System.out.println(n);
+      return;
+    }
+   
+    printDec(n-1);
+    System.out.println(n);
+  }
+
+
+
   public static void main(String[] args) {
     //   print(10);
-    // System.out.print(fib(5));
+    System.out.print(fib(5));
 // System.out.print(fact(5));
 // 120
 
@@ -166,8 +179,8 @@ int arr[]= {1,33,33,33,55};
 // System.out.println(power(2,10));
 // System.out.println(tailing(5));
 String str = "helloeveryone";
-removeDuplicate(str, 0,new StringBuilder(""),new boolean[26]); // letters in alpabets are 26
+// removeDuplicate(str, 0,new StringBuilder(""),new boolean[26]); // letters in alpabets are 26
 //helovryn
-
+// printDec(5);
 }
 }
