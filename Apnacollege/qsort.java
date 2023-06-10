@@ -23,7 +23,7 @@ int j = start-1;  // if we take j = start counting will be error so we place j =
                 j++; // counts the number value less than pivote
              int temp = arr[i]; 
              arr[i] = arr[j]; // initially arr[j] = null 
-             arr[j] = temp;// here we are swapping value such that value left side of pivote will be less then right side will be greater than
+             arr[j] = temp; // here we are swapping value such that value left side of pivote will be less then right side will be greater than
              // if we swap the less than value then automatically right side values will swaps
             }
         }
@@ -33,7 +33,6 @@ int j = start-1;  // if we take j = start counting will be error so we place j =
         arr[j] = pi;
         arr[end] = temp; // val
         return j;
-
     }
 
     public static void printArray(int arr[]){

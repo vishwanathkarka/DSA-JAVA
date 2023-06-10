@@ -17,6 +17,7 @@ for(int i =row-1, j =col-1; j>=0&& i>=0; j--,i--){
    } 
 }
 
+
 // up right diagonal
 for(int i =row-1, j =col+1; j<board[0].length&& i>=0; j++,i--){
     if(board[i][j]=='Q'){
@@ -30,7 +31,7 @@ for(int i =row-1, j =col+1; j<board[0].length&& i>=0; j++,i--){
 public static void nqueen(char board[][],int row){
     if(row == board.length){
        
-// printvalues(board);
+printvalues(board);
 count++;
         return;
     }

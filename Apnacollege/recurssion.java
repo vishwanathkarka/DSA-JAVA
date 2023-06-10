@@ -179,7 +179,7 @@ int arr[]= {1,33,33,33,55};
 // System.out.println(power(2,10));
 // System.out.println(tailing(5));
 String str = "helloeveryone";
-// removeDuplicate(str, 0,new StringBuilder(""),new boolean[26]); // letters in alpabets are 26
+removeDuplicate(str, 0,new StringBuilder(""),new boolean[26]); // letters in alpabets are 26
 //helovryn
 // printDec(5);
 }

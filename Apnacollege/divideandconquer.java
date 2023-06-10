@@ -45,7 +45,7 @@ while(i<=mid && j<=end){ // both condition should be true
         j++;
         k++;
     }
-}
+}   
 
 while(i<=mid){
     temp[k++] = arr[i++];
