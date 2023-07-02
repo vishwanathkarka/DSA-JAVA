@@ -58,7 +58,7 @@ return 1;
   return sn;
     // return  n+ sumNaturalNo(n-1); 
     }
-
+     
     static Boolean isSortedArray(int[] arr, int k){
       if(arr[k]>arr[k+1]){
 return false;

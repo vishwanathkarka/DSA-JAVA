@@ -33,7 +33,20 @@ path.remove(path.size()-1);
 return false;
 
     }
+public static void kNode(Node root, int level, int k){
+    if(root == null){
+        return;
+    }
+    if(k == level){
+    System.out.println(root.data);
+    return;
+}
+kNode(root.left, level+1, k);
+kNode(root.right,level+1,k);
 
+
+    
+}
 
     public static Node lca(Node root , int n1,int n2){
         // array for finding the path for the target value
