@@ -23,6 +23,7 @@ public class LevelOrder {
             
     //     }
     // }
+	
 	public static void main(String[] args) {
 	    
 		Node n = new Node(1);
