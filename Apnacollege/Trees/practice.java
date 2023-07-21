@@ -1,10 +1,8 @@
-package Apnacollege.Trees;
-
 import java.util.ArrayList;
 import java.util.*;
 
 public class practice {
-    
+
     static class Edge{
         int src ;
         int dest;
@@ -33,7 +31,6 @@ q.add(e.dest);
 }
 }
 
-
    public static void main (String args[]){
         int v = 5;
         ArrayList <Edge>[] graph = new ArrayList[v];
@@ -41,10 +38,10 @@ q.add(e.dest);
             graph[i] = new ArrayList<>();
         }
         //   (5)
-        // 0 --- 1
+        // 0 ---> 1
         // (1) /   \   (3)  
         //    /     \
-        //    2 ---- 3
+        //    2 <---- 3
         //(2) |  (1) 
         //    4
 
@@ -52,21 +49,21 @@ q.add(e.dest);
         graph[0].add(new Edge(0,1,5));
 
         // 1-vertex
-        graph[1].add(new Edge(1,0,5));
+        // graph[1].add(new Edge(1,0,5));
         graph[1].add(new Edge(1,2,1));
         graph[1].add(new Edge(1,3,3));
 
         // 2-vertex
-         graph[2].add(new Edge(2,1,1));
+        //  graph[2].add(new Edge(2,1,1));
     //   graph[2].add(new Edge(2,3,1));
          graph[2].add(new Edge(2,4,2));
-
+         graph[2].add(new Edge(2,0,1));
         // 3-vertex
-        graph[3].add(new Edge(3,1,3));
-        // graph[3].add(new Edge(3,2,1));
+        // graph[3].add(new Edge(3,1,3));
+        graph[3].add(new Edge(3,2,1));
 
         // 4 vertex
-        graph[4].add(new Edge(4,2,2));
+        // graph[4].add(new Edge(4,2,2));
         
 
         // breathForSearch(graph);
@@ -80,9 +77,17 @@ q.add(e.dest);
         for(int i =0; i<graph.length;i++){
             visited[i] = false;
         }
+        boolean stack[] = new boolean [graph.length];
+        for(int i =0; i<graph.length;i++){
+            stack[i] = false;
+        }
 // System.out.println( isCycleExist(graph,0,-1,visited));
 // System.out.println(isBipartite(graph));
-     
+for(int i=0 ; i<graph.length;i++){
+    if(!visited[i]){
+System.out.println(isCycle(graph,i, visited,stack));
+}   
+}
     }
     
     public static boolean isPath(ArrayList<Edge>[] graph, int src, int dest, boolean[] visited){
@@ -151,5 +156,55 @@ public static boolean isBipartite(ArrayList<Edge>[] graph){
     }
     return true;
 }
-
+ 
+ 
+//  public static boolean isCycleDirtedGraph(ArrayList<Edge>[] graph){
+//      boolean vis[]  = new boolean [graph.length];
+//      boolean stack[] = new boolean [graph.length];
+//      for(int i =0; i<graph.length;i++){
+//          if(!vis[i]){
+//           if(isCycleUtil(graph,i,visted,stack)){
+//               return true;
+//           } 
+//          }
+//      } 
+//  }  
+ 
+ public static boolean isCycle(ArrayList<Edge>[] graph, int curr, boolean[] visted , boolean[] stack ){
+     stack[curr]  = true;
+     visted[curr] = true;
+     for(int i =0; i<graph[curr].size();i++){
+         Edge  e = graph[curr].get(i);
+         if(stack[e.dest]){
+             return true;
+         }
+         
+         if(!visted[e.dest]){
+             if(isCycle(graph, e.dest, visted,stack)){
+                 return true;
+             }
+         }
+     }
+     stack[curr] = false;
+     return false;
+ }
+ 
+//  public static boolean isCycleUtil(ArrayList<Edge>[] graph, int curr , boolean visted[], boolean[] stack){
+//     visted[curr] = true;
+//     stack[curr] = true;
+//     for(int i =0; i<graph[curr].size();i++){
+//         Edge e = graph[curr].get(i);
+//         if(stack[e.dest]){
+//             return true;
+//         }
+//         if(!visted[e.dest] && isCycleUtil(graph,e.dest,visted,stack)){
+//             return true;
+//         }
+//         if(!visted[e.dest]&& isCycleUtil(graph,e.dist,visted,stack)){
+//             return true;
+//         }
+//     }
+//     stack[curr] = false;
+//     return false;
+//  }
 }
