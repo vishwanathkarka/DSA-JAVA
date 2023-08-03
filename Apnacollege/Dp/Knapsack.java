@@ -64,6 +64,8 @@ public class Knapsack{
 
         }
     }
+
+    
 // DP - tabulation
     public static int knapsackTab(int val[], int wt[], int W, int dp[][]){ // no need of the n because istade of the n we are using loop i & j
      
